@@ -1,0 +1,71 @@
+{
+  "youpvl": {
+    "personal": {
+      "name": "Youp van Leeuwen",
+      "username": "youpvl",
+      "profile": "youpvl.jpg",
+      "bio": "Yesterday is history, tomorrow is a mystery but today is a gift that's why it's called the present. - Master Oogway \uD83D\uDC22"
+    },
+    "bio": [
+      {
+        "icon": "cake",
+        "text": "Age: 19 | 03/08/2001"
+      },
+      {
+        "icon": "house",
+        "text": "Lives in Zoetermeer"
+      },
+      {
+        "icon": "child_care",
+        "text": "Born in Zoetermeer"
+      },
+      {
+        "icon": "wc",
+        "text": "Single"
+      }
+    ],
+    "favo": {
+      "book": "The Idiot Brain | Dean Burnett",
+      "movie": "Tenet | Steven Spielberg",
+      "song": "Why don't you listen | James Cherry"
+    }
+  },
+  "dwijma": {
+    "personal": {
+      "name": "Danilo Wijma",
+      "username": "dwijma",
+      "profile": "dwijma.jpg",
+      "dob": "01/10/2001"
+    },
+    "bio": [
+      {
+        "icon": "cake",
+        "text": "Age: 20 | 01/10/2001"
+      },
+      {
+        "icon": "house",
+        "text": "Lives in Zoetermeer"
+      },
+      {
+        "icon": "child_care",
+        "text": "Born in Zoetermeer"
+      },
+      {
+        "icon": "wc",
+        "text": "Single"
+      }
+    ]
+  },
+  "rvissers": {
+    "personal": {
+      "name": "Roy Vissers",
+      "dob": "05/20/2001"
+    }
+  },
+  "bratnayati": {
+    "personal": {
+      "name": "Brian Ratnayati",
+      "dob": "06/19/2000"
+    }
+  }
+}

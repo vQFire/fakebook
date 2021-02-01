@@ -1,0 +1,98 @@
+.feed {
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px 0 rgba(20, 20, 20, 0.2);
+  margin-bottom: 15px;
+  padding: 15px 10px;
+
+  cursor: auto;
+
+  &User {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+
+    & a {
+      padding: 8px 0 8px 5px;
+      margin: 0 0 0 5px;
+      border-left: 2px solid rgba(20,20,20,0.8);
+
+      color: rgba(20,20,20,0.6)
+    }
+
+    & img {
+      width: 35px;
+      height: 35px;
+
+      border: 3px solid black;
+      border-radius: 50px;
+    }
+  }
+
+  &Message {
+    margin-bottom: 20px;
+
+    h5, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    h5 {
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+  &Comment {
+    position: relative;
+    display: flex;
+    min-height: 20px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+
+    box-shadow: 2px 2px 2px 1px rgba(20,20,20,0.2);
+
+    &:nth-last-child(1) {
+      box-shadow: 0 0 0 0 rgba(0,0,0,0);
+      margin-bottom: -10px;
+    }
+
+    &Spacer {
+      position: absolute;
+      width: 20px;
+      height: 50%;
+
+      border-left: 2px solid gray;
+      border-bottom: 2px solid gray;
+    }
+
+    &Content {
+      margin-left: 20px;
+      padding-left: 10px;
+    }
+
+    &User {
+      display: flex;
+      align-items: center;
+
+      & img {
+        width: 25px;
+        height: 25px;
+
+        border-radius: 50px;
+
+        margin-right: 10px;
+      }
+
+      & a {
+        font-size: 12px;
+        color: rgba(20,20,20,0.4)
+      }
+    }
+
+    &Message {
+      font-size: 14px;
+    }
+  }
+}
